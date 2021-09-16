@@ -103,6 +103,7 @@ hr:not([size]) {
   height: 1px;
 }
 
+/* headers and subheaders */
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -110,7 +111,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   font-weight: 700;
   line-height: 1.2;
   /* color: #343a40; */
-  color: #d8148d;
+  color: #dee2e6;
 }
 
 h1, .h1 {
