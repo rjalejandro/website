@@ -596,7 +596,7 @@ progress {
   margin-top: -1rem;
   margin-bottom: 1rem;
   font-size: 0.875em;
-  color: #6c757d;
+  /* color: #6c757d; */
   color: #dee2e6;
 }
 .blockquote-footer::before {
@@ -2184,7 +2184,8 @@ progress {
 .form-text {
   margin-top: 0.25rem;
   font-size: 0.875em;
-  color: #6c757d;
+  /* color: #6c757d; */
+  color: #6a1432;
 }
 
 .form-control {
