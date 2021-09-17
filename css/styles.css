@@ -3035,12 +3035,13 @@ textarea.form-control-lg {
 }
 
 .btn-primary {
-  color: #000;
-  background-color: #bd5d38;
+  color: #fff;
+  /* background-color: #bd5d38; */
+  background-color: (0,0,0,0.5);
   border-color: #bd5d38;
 }
 .btn-primary:hover {
-  color: #000;
+  color: #fff;
   background-color: #c77556;
   border-color: #c46d4c;
 }
@@ -11432,4 +11433,34 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+.styled {
+  border: 1;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #000;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.styled:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.styled:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+              inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+a.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: initial;
 }
