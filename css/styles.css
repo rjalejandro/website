@@ -161,7 +161,7 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
-  color: #dee2e6;
+  color: white;
 }
 
 abbr[title],
@@ -7034,6 +7034,7 @@ textarea.form-control-lg {
 
 .flex-shrink-0 {
   flex-shrink: 0 !important;
+  color:dimgrey
 }
 
 .flex-shrink-1 {
@@ -7715,7 +7716,8 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  /* color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important; */
+  color:lightblue !important;
 }
 
 .text-secondary {
