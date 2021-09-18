@@ -120,7 +120,7 @@ h1, .h1 {
 }
 @media (min-width: 1200px) {
   h1, .h1 {
-    font-size: 6rem;
+    font-size: 7rem;
   }
 }
 
@@ -11436,6 +11436,7 @@ section.resume-section .resume-section-content {
   }
 }
 
+/* for the PDF and DOI buttons: */
 .styled {
   border: 1;
   line-height: 2.5;
@@ -11464,4 +11465,12 @@ a.button {
 
   text-decoration: none;
   color: initial;
+}
+
+/* for the photo: */
+img {
+  border-radius: 50%;
+  border: 10px solid #636464;
+  width: 200px;
+  height: auto;
 }
